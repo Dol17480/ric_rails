@@ -7,4 +7,6 @@ class BikesController < ApplicationController
   render :json => bikes
   end
 
+  
+
 end
