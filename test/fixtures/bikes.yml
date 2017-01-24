@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  category: MyString
+  bike_type: MyString
+  brand_name: MyString
+  model: MyString
+  colour: MyString
+  size: MyString
+  price: 9.99
+
+two:
+  category: MyString
+  bike_type: MyString
+  brand_name: MyString
+  model: MyString
+  colour: MyString
+  size: MyString
+  price: 9.99
