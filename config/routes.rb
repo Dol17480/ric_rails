@@ -14,7 +14,7 @@ Rails.application.routes.draw do
 
     get '/customers' => 'customers#index'
 
-    get '/about' => 'sales#index'
+    get '/sales' => 'sales#index'
 
     resources :bikes do 
           
