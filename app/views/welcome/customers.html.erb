@@ -1,0 +1,32 @@
+<div id="customers">
+
+  <div id="top_container">
+    <h1>Customers</h1> 
+    <a href="bikes">Customers</a>
+    <a href="sales">Sales</a>
+  </div>
+
+  <div id="info_container">
+  </div>
+
+  <div id="img_container">
+  <img id="logo" src=assets/Bike.jpg height="650" width="650">
+  </div>
+
+  <div id="customer_list_container">
+  
+    <div class="clearfix float-my-children">
+
+      <% @customers.each do |customer| %>
+        <a>
+          Name : <%= customers.name %><br>
+          Address : <%= customers.address %><br>
+          Phone : <%= customers.phone %><br>
+          <br>
+        </a>
+
+        </tr>
+      <% end %>
+    </div>
+</div>
+  </div>
