@@ -1,0 +1,31 @@
+<div id="home">
+
+  <div id="top_container">
+    <h1>All the bikes</h1> 
+  </div>
+
+  <div id="info_container">
+  
+  </div>
+
+  <div id="bike_list_container">
+  
+    <div class="clearfix float-my-children">
+
+      <% @bikes.each do |bike| %>
+        <a>
+          Category : <%= bike.category %><br>
+          Bike_type : <%= bike.bike_type %><br>
+          Brand_name : <%= bike.brand_name %><br>
+          Model : <%= bike.model %><br>
+          Colour : <%= bike.colour %><br>
+          Size : <%= bike.size %><br>
+          Price : <%= bike.price %><br>
+          <br>
+        </a>
+
+        </tr>
+      <% end %>
+    </div>
+</div>
+  </div>

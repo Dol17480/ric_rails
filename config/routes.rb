@@ -1,10 +1,26 @@
 Rails.application.routes.draw do
 
-  get 'bikes' => 'bikes#index'
 
-  get'customers' => 'customers#index'
+  # get 'welcome' => 'welcome#index'
 
-  get'sales' => 'sales#index'
+  # get 'bikes' => 'bikes#index'
+
+  # get'customers' => 'customers#index'
+
+  # get'sales' => 'sales#index'
+
+
+    get 'welcome' => 'welcome#home'
+
+    get '/customers' => 'customers#index'
+
+    get '/about' => 'sales#index'
+
+    resources :bikes do 
+          
+      end
+
+    get '/bikes' => 'bikes#index'
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
