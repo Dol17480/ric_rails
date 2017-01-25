@@ -13,3 +13,52 @@
  *= require_tree .
  *= require_self
  */
+ header {
+   text-align: right;
+   padding-bottom: 5px;
+   border-bottom: 1px solid #ccc;
+ }
+
+ nav a {
+   margin-left: 10px;
+   font-weight: normal;
+   color: #5f5f5f;
+   text-decoration: none;
+ }
+
+ body {
+   font-family: Arial, sans-serif;
+   color: #5f5f5f;
+   letter-spacing: 2px;
+ }
+
+ h1 {
+   font-size: 90px;
+   color: blue;
+   margin: 0;
+   line-height: 1;
+   padding: 0;
+ }
+
+ a {
+   color: tomato;
+   font-weight: bold;
+ }
+
+ a:visited {
+   color: #42006a;
+ }
+
+ #top_container {
+   margin: 20px 0 50px 50px;
+ }
+
+ #info_container {
+   margin: 20px 0 50px 50px;
+   font-size: 22px;
+ }
+
+ #bike_list_container {
+   margin: 30px 0 20px 50px;
+ }
+
